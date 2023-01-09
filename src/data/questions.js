@@ -1,0 +1,146 @@
+export const languages = {
+  english: [
+    {
+      id: 1,
+      question: 'I ______ from France.',
+      options: ['am', 'is', 'are', 'be'],
+      correctOption: 0,
+    },
+    {
+      id: 2,
+      question: 'I ______________ the film last night.',
+      options: ['like', 'likes', 'liking', 'liked'],
+      correctOption: 3,
+    },
+    {
+      id: 3,
+      question: 'This is my friend. _________ name is Peter.',
+      options: ['Yours', 'Her', 'Ours', 'His'],
+      correctOption: 3,
+    },
+    {
+      id: 4,
+      question: 'Mike is ___________. ',
+      options: [
+        'friend of my sister',
+        "my sister's friend",
+        'friend from my sister',
+        "my sister friend's",
+      ],
+      correctOption: 1,
+    },
+    {
+      id: 5,
+      question: 'My brother is ______________ artist.',
+      options: ['a', 'the', 'an', '-'],
+      correctOption: 2,
+    },
+    {
+      id: 6,
+      question: '___________ 20 desks in the classroom.',
+      options: ['There is', 'They are', 'There are', 'This is'],
+      correctOption: 2,
+    },
+    {
+      id: 7,
+      question: 'Paul ________________ romantic films.',
+      options: ["don't like", 'likes not', "isn't likes", "doesn't like"],
+      correctOption: 3,
+    },
+    {
+      id: 8,
+      question: 'She _______________ at school last week.',
+      options: ["didn't be", "wasn't", "were'nt", "don't"],
+      correctOption: 1,
+    },
+    {
+      id: 9,
+      question: 'Sorry, I can’t talk. I ___________ right now.',
+      options: ['driving', 'drive', "'m driving", 'drives'],
+      correctOption: 2,
+    },
+    {
+      id: 10,
+      question: '________________ a piece of cake? No, thank you.',
+      options: ['Would you like', 'Do you like', 'Want you', 'Are you like'],
+      correctOption: 0,
+    },
+  ],
+  spanish: [
+    {
+      id: 1,
+      question: 'Desayuno un café y una tostada ______ la mañana.',
+      options: ['con', 'de', 'por', '-'],
+      correctOption: 2,
+    },
+    {
+      id: 2,
+      question: 'Tenemos dos camisas ________.',
+      options: ['blanca', 'gris', 'azules', 'roja'],
+      correctOption: 2,
+    },
+    {
+      id: 3,
+      question: 'A mí me ______ las películas españolas.',
+      options: ['gustan', 'gusto', 'gusta', 'gustamos'],
+      correctOption: 0,
+    },
+    {
+      id: 4,
+      question: '¿ _______ años tienes?',
+      options: ['Dónde', 'Cuántos', 'Quién', 'Qué'],
+      correctOption: 1,
+    },
+    {
+      id: 5,
+      question: 'Ana es más delgada ______ Teresa.',
+      options: ['que', 'como', 'tan', 'quién'],
+      correctOption: 0,
+    },
+    {
+      id: 6,
+      question: 'Mi padre tiene __________ años.',
+      options: [
+        'quarenta y ocho',
+        'quarento y ocho',
+        'cuarenta y ocho',
+        'ocho y quarenta',
+      ],
+      correctOption: 2,
+    },
+    {
+      id: 7,
+      question: 'La película es ___________.',
+      options: [
+        'mucha interesante',
+        'mucho interesante',
+        'muy interesante',
+        'muchos interesantes',
+      ],
+      correctOption: 2,
+    },
+    {
+      id: 8,
+      question: '________ treinta años.',
+      options: ['Tengo', 'Estoy', 'Soy', 'Yo'],
+      correctOption: 0,
+    },
+    {
+      id: 9,
+      question: '¿Qué te _______ Granada?',
+      options: ['gusta', 'encanta', 'gustan', 'parece'],
+      correctOption: 3,
+    },
+    {
+      id: 10,
+      question: '¿Qué hora es?',
+      options: [
+        'Hay las cinco',
+        'Son las cinco',
+        'Están las cinco',
+        'En la cinco',
+      ],
+      correctOption: 1,
+    },
+  ],
+};
